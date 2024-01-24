@@ -21,6 +21,7 @@ const App = () => {
 
   return (
     <div>
+      
       {getPosts.map((item) => {
         return (
           <div key={item.id}> 
